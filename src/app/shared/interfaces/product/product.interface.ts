@@ -4,11 +4,14 @@ export interface IProductRequest {
   category: ICategoryResponse;
   name: string;
   path: string;
-  ingredients: string;
+  description: string;
   weight: string;
   price: number;
   imagePath: string;
-  count: number;
+  proteins: number;
+  carbohydrates: number;
+  fat: number;
+  calories: number;
 }
 
 export interface IProductResponse extends IProductRequest {
