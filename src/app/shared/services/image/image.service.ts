@@ -5,38 +5,34 @@ import { deleteObject, getDownloadURL, percentage, ref, Storage, uploadBytesResu
   providedIn: 'root'
 })
 export class ImageService {
-  public uploadPercent = 0
-  constructor(
-    private storage: Storage
-  ) { }
+
+  public uploadPercent = 0;
+
+  constructor(private storage: Storage) { }
 
   async uploadFile(folder: string, name: string, file: File | null): Promise<string> {
     const path = `${folder}/${name}`;
     let url = '';
-    if (file) {
+    if(file) {
       try {
-        const storageRef = ref(this.storage, path)
+        const storageRef = ref(this.storage, path);
         const task = uploadBytesResumable(storageRef, file);
         percentage(task).subscribe(data => {
           this.uploadPercent = data.progress
         });
         await task;
-        url = await getDownloadURL(storageRef)
+        url = await getDownloadURL(storageRef);
       } catch (e: any) {
         console.error(e);
-        console.error('neok');
-
       }
-
+    } else {
+      console.log('wrong format');
     }
-    else {
-      console.log('no ok');
-    }
-    return Promise.resolve(url)
+    return Promise.resolve(url);
   }
 
-  deleteuploadFile(imagePath: string): Promise<void> {
-    const task = ref(this.storage, imagePath)
+  deleteUploadFile(imagePath: string): Promise<void> {
+    const task = ref(this.storage, imagePath);
     return deleteObject(task)
   }
 }
