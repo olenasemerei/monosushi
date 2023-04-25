@@ -1,0 +1,43 @@
+{
+  "discounts": [
+    {
+      "description": "4",
+      "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVyL6xNUqgNfR_P4FdlwKFEwfM5Xn-qfahuQ&usqp=CAU",
+      "id": 5
+    },
+    {
+      "description": "555",
+      "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVyL6xNUqgNfR_P4FdlwKFEwfM5Xn-qfahuQ&usqp=CAU",
+      "id": 7
+    }
+  ],
+  "categories": [
+    {
+      "name": "ttt444",
+      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "id": 4
+    },
+    {
+      "name": "ва",
+      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "id": 5
+    },
+    {
+      "name": "www",
+      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "id": 6
+    },
+    {
+      "name": "ва",
+      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "id": 7
+    }
+  ],
+  "products": [
+    {}
+  ]
+}
