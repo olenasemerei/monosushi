@@ -32,7 +32,7 @@ import { CabinetComponent } from './pages/cabinet/cabinet.component';
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
-
+import { ToastrModule } from 'ngx-toastr';
 
 
 @NgModule({
@@ -67,7 +67,8 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     ReactiveFormsModule,
     HttpClientModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
-    provideStorage(() => getStorage())
+    provideStorage(() => getStorage()),
+    ToastrModule.forRoot(),
 
   ],
   providers: [],
