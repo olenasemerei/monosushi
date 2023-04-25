@@ -1,0 +1,135 @@
+@import "../../shared/styles/base";
+@import "../../shared/styles/style";
+@import "../../shared/styles/main";
+@import "../../shared/styles/variables";
+@import "../../shared/styles/fonts";
+
+
+.spacer-md {
+  height: 60px;
+}
+[class*="spacer"] {
+  clear: both;
+  width: 100% !important;
+}
+
+.center-info {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 550px;
+  .center-info .title {
+    position: relative;
+    display: inline-block;
+    padding-top: 10px;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .title {
+    color: #252525;
+    font-weight: bold;
+  }
+
+  .center-info .title::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background: #b5d8f7;
+  }
+}
+h2,
+.h2 {
+  font-size: 42px;
+  line-height: 1.2em;
+}
+.justify-content-center {
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  .row {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  .col-12 .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .delivery-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .delivery-info-img {
+      margin-right: 40px;
+      max-width: 276px;
+    }
+    .delivery-info-img img {
+      width: 100%;
+    }
+    .delivery-info-text {
+      max-width: 270px;
+    }
+    .text-center {
+      text-align: center;
+    }
+
+    .delivery-info-text .title {
+      margin-bottom: 10px;
+      letter-spacing: 0.07em;
+    }
+    title {
+      color: #252525;
+      font-weight: bold;
+    }
+    h4,
+    .h4 {
+      font-size: 26px;
+      line-height: 1.2em;
+    }
+    .text-sm {
+      font-size: 16px;
+      line-height: 1.6em;
+    }
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  }
+
+  .delivery-info.yellow {
+    position: relative;
+}
+
+}
+.delivery-info.green .title {
+  color: #27ae60;
+}
+.delivery-info.yellow .title {
+  color: #f2c94c;
+}
+ span {
+  color: #f2c94c;
+}
