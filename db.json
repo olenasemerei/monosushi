@@ -13,31 +13,70 @@
   ],
   "categories": [
     {
-      "name": "ttt444",
-      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "name": "соуси",
+      "path": "соуси",
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
+      "id": 2
+    },
+    {
+      "name": "сети",
+      "path": "сети",
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
+      "id": 3
+    },
+    {
+      "name": "сети6",
+      "path": "6сети",
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
       "id": 4
     },
     {
-      "name": "ва",
-      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
+      "name": "сети14",
+      "path": "14",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fphoto_2022-07-09_13-28-56.jpg?alt=media&token=aa94b01d-38a4-494d-ae16-a7fe7d90662e",
       "id": 5
-    },
-    {
-      "name": "www",
-      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
-      "id": 6
-    },
-    {
-      "name": "ва",
-      "path": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/10/nav-img-rolls.svg",
-      "id": 7
     }
   ],
   "products": [
-    {}
+    {
+      "category": {
+        "name": "сети",
+        "path": "сети",
+        "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
+        "id": 3
+      },
+      "name": "філадельфія",
+      "path": "філадельфія",
+      "description": "2222",
+      "weight": "12",
+      "price": 12,
+      "proteins": 12,
+      "carbohydrates": 12,
+      "fat": 12,
+      "calories": 12,
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
+      "count": 1,
+      "id": 3
+    },
+    {
+      "category": {
+        "name": "соуси",
+        "path": "соуси",
+        "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
+        "id": 2
+      },
+      "name": "соевий",
+      "path": "соевий",
+      "description": "555",
+      "weight": "5",
+      "price": 5,
+      "proteins": 5,
+      "carbohydrates": 5,
+      "fat": 5,
+      "calories": 5,
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fsoevsousejpg.jpg?alt=media&token=6a8a47e4-9f01-4d0e-ad8d-34e531a89846",
+      "count": 1,
+      "id": 4
+    }
   ]
 }
