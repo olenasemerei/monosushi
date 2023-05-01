@@ -109,14 +109,14 @@
     </div>
 
     <div class="header-basket open-cart">
-      <i>
+      <a [routerLink]="[ '/checkout' ]" routerLinkActive="route-active" class="nav-link basket" aria-current="page">
         <img src="https://monosushi.com.ua/wp-content/themes/monosushi/img/basket.svg" alt="basket">
-        <span>0</span>
-      </i>
-      <div class="basket-price empty ">
-        <b id="basket-total-price" class="card-total-price">0</b>
         <span>{{total}} грн</span>
-      </div>
+      </a>
+      <!-- <div class="basket-price empty ">
+        <b id="basket-total-price" class="card-total-price">0</b>
+        <span> грн</span>
+      </div> -->
 
     </div>
   </div>
