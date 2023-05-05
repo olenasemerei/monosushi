@@ -1,8 +1,9 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { IProductResponse } from '../../shared/interfaces/product/product.interface';
-import { ProductService } from '../../shared/services/product/product.service';
 import { ActivatedRoute, NavigationEnd, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { IProductResponse } from 'src/app/shared/interfaces/product/product.interface';
+import { OrderService } from 'src/app/shared/services/order/order.service';
+import { ProductService } from 'src/app/shared/services/product/product.service';
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
@@ -15,6 +16,7 @@ export class ProductComponent implements OnInit, OnDestroy {
 
   constructor(
     private productService: ProductService,
+    private orderService: OrderService,
     private activatedRoute: ActivatedRoute,
     private router: Router
   ) {
