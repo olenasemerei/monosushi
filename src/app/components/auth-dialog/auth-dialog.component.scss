@@ -1,0 +1,24 @@
+@import "../../shared/styles/base";
+@import "../../shared/styles/main";
+@import "../../shared/styles/style";
+@import "../../shared/styles/variables";
+@import "../../shared/styles/fonts";
+@import "../../shared/styles/media";
+
+
+form {
+  margin-top: 40px;
+  margin-left: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.form-group {
+  width: 100%;
+  .mat-form-field {
+      width: 100%;
+  }
+}
