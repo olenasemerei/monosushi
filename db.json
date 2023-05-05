@@ -13,70 +13,127 @@
   ],
   "categories": [
     {
-      "name": "соуси",
-      "path": "соуси",
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
-      "id": 2
+      "name": "drinks",
+      "path": "drinks",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fdrinks.svg?alt=media&token=0c936447-fec1-4908-a60c-8b368806a2f5",
+      "id": 6
     },
     {
-      "name": "сети",
-      "path": "сети",
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
-      "id": 3
+      "name": "sets",
+      "path": "sets",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fsets.svg?alt=media&token=35b28692-5098-45a3-a3e0-6ef5b79bf273",
+      "id": 7
     },
     {
-      "name": "сети6",
-      "path": "6сети",
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
-      "id": 4
+      "name": "rolls",
+      "path": "rolls",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Frolls.svg?alt=media&token=a23d3a05-f5e0-4b64-80ca-a3b6e1c5f9e2",
+      "id": 8
     },
     {
-      "name": "сети14",
-      "path": "14",
-      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fphoto_2022-07-09_13-28-56.jpg?alt=media&token=aa94b01d-38a4-494d-ae16-a7fe7d90662e",
-      "id": 5
+      "name": "sauces",
+      "path": "sauces",
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fsauce.svg?alt=media&token=38350545-5c45-4f3e-81ca-6a7abec64772",
+      "id": 9
     }
   ],
   "products": [
     {
       "category": {
-        "name": "сети",
-        "path": "сети",
-        "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
-        "id": 3
+        "name": "rolls",
+        "path": "rolls",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Frolls.svg?alt=media&token=a23d3a05-f5e0-4b64-80ca-a3b6e1c5f9e2",
+        "id": 8
       },
-      "name": "філадельфія",
-      "path": "філадельфія",
-      "description": "2222",
-      "weight": "12",
-      "price": 12,
-      "proteins": 12,
-      "carbohydrates": 12,
-      "fat": 12,
-      "calories": 12,
-      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
+      "name": "Філадельфія з лососем",
+      "path": "rolls",
+      "description": "Склад: Риc, крем сир, огірок, лосось",
+      "weight": "280",
+      "price": 267,
+      "proteins": 0,
+      "carbohydrates": 0,
+      "fat": 0,
+      "calories": 0,
+      "imagePath": "https://monosushi.com.ua/wp-content/uploads/2020/11/1.-filadelfiya-z-lososem.jpg",
       "count": 1,
       "id": 3
     },
     {
       "category": {
-        "name": "соуси",
-        "path": "соуси",
-        "imagePath": "https://monosushi.com.ua/wp-content/uploads/2022/07/sushyk-zsu_page-0001.jpg",
-        "id": 2
+        "name": "sets",
+        "path": "sets",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fsets.svg?alt=media&token=35b28692-5098-45a3-a3e0-6ef5b79bf273",
+        "id": 7
       },
-      "name": "соевий",
-      "path": "соевий",
-      "description": "555",
-      "weight": "5",
-      "price": 5,
-      "proteins": 5,
-      "carbohydrates": 5,
-      "fat": 5,
-      "calories": 5,
+      "name": "Монокомбо 1",
+      "path": "sets",
+      "description": "Склад: Філадельфія з лососем Каліфорнія з креветкою",
+      "weight": "530",
+      "price": 415,
+      "proteins": 0,
+      "carbohydrates": 0,
+      "fat": 0,
+      "calories": 0,
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fimgonline-com-ua-compressed-ovy2upme6l.jpg.pagespeed.ce.nLbuyi-_hm.jpg?alt=media&token=6a808a88-d922-43b1-80e3-78cff04a6cf7",
+      "count": 1,
+      "id": 5
+    },
+    {
+      "category": {
+        "name": "drinks",
+        "path": "drinks",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fdrinks.svg?alt=media&token=0c936447-fec1-4908-a60c-8b368806a2f5",
+        "id": 6
+      },
+      "name": "Pepsi",
+      "path": "drinks",
+      "description": ".",
+      "weight": "0.33л",
+      "price": 35,
+      "proteins": 0,
+      "carbohydrates": 0,
+      "fat": 0,
+      "calories": 0,
+      "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fpepsicola.jpg?alt=media&token=d8ad8d9a-6dd5-4384-8401-3610bb61e43d",
+      "count": 1,
+      "id": 6
+    },
+    {
+      "category": {
+        "name": "sauces",
+        "path": "sauces",
+        "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fsauce.svg?alt=media&token=38350545-5c45-4f3e-81ca-6a7abec64772",
+        "id": 9
+      },
+      "name": "Соєвий соус",
+      "path": "sauces",
+      "description": ".",
+      "weight": "150",
+      "price": 24,
+      "proteins": 0,
+      "carbohydrates": 0,
+      "fat": 0,
+      "calories": 0,
       "imagePath": "https://firebasestorage.googleapis.com/v0/b/monosushi-2349f.appspot.com/o/images%2Fsoevsousejpg.jpg?alt=media&token=6a8a47e4-9f01-4d0e-ad8d-34e531a89846",
       "count": 1,
-      "id": 4
+      "id": 7
+    }
+  ],
+  "auth": [
+    {
+      "id": 1,
+      "email": "admin@gmail.com",
+      "password": "qwerty123",
+      "fullName": "Petro Petriv",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "email": "user@gmail.com",
+      "password": "qwerty123",
+      "fullName": "Pavlo Pavliv",
+      "role": "USER"
     }
   ]
 }
+
