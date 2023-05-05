@@ -1,16 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { HomeComponent } from './pages/home/home.component';
 
+import { HomeComponent } from './pages/home/home.component';
 import { DiscountComponent } from './pages/discount/discount.component';
 import { DiscountInfoComponent } from './pages/discount-info/discount-info.component';
 import { ProductComponent } from './pages/product/product.component';
@@ -22,18 +23,24 @@ import { NewsComponent } from './pages/news/news.component';
 import { OffertaComponent } from './pages/offerta/offerta.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+
 import { AdminComponent } from './admin/admin.component';
 import { AdminCategoryComponent } from './admin/admin-category/admin-category.component';
+import { AdminProductComponent } from './admin/admin-product/admin-product.component';
 import { AdminDiscountComponent } from './admin/admin-discount/admin-discount.component';
 import { AdminOrderComponent } from './admin/admin-order/admin-order.component';
-import { AdminProductComponent } from './admin/admin-product/admin-product.component';
-import { CabinetComponent } from './pages/cabinet/cabinet.component';
 
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
-import { ToastrModule } from 'ngx-toastr';
+import { provideFirestore,getFirestore } from '@angular/fire/firestore';
+import { provideAuth,getAuth } from '@angular/fire/auth';
 
+import { ToastrModule } from 'ngx-toastr';
+import { AuthorizationComponent } from './pages/authorization/authorization.component';
+import { CabinetComponent } from './pages/cabinet/cabinet.component';
+import { AuthDialogComponent } from './components/auth-dialog/auth-dialog.component';
+import { SharedModule } from './shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -54,22 +61,26 @@ import { ToastrModule } from 'ngx-toastr';
     CheckoutComponent,
     AdminComponent,
     AdminCategoryComponent,
+    AdminProductComponent,
     AdminDiscountComponent,
     AdminOrderComponent,
-    AdminProductComponent,
-    CabinetComponent
+    AuthorizationComponent,
+    CabinetComponent,
+    AuthDialogComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     BrowserAnimationsModule,
+    AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideStorage(() => getStorage()),
+    provideFirestore(() => getFirestore()),
+    provideAuth(() => getAuth()),
     ToastrModule.forRoot(),
-
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
